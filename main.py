@@ -20,6 +20,7 @@ def get_output_file_masks(parameters) -> Dict[str, str]:
         ".nextflow.log": "/basic/.nextflow.log",
         "result.txt": "result.txt",
         "report.html": "/basic/report.html",
+        "*.png": "/images/",
     }
 
 

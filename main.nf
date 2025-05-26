@@ -22,7 +22,7 @@ process runPythonExample {
     """
     mkdir -p /data
     cp ${data_file} /data/data.yaml
-    pip3 install pyyaml
+    pip3 install pyyaml matplotlib
     python3 ${query_py} /data/data.yaml /data/result.txt
     cp /data/result.txt result.txt
     """
